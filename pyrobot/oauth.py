@@ -9,7 +9,7 @@ from flask import session
 from flask import render_template
 
 from flask.json import jsonify
-from td.app.auth import FlaskTDAuth
+from auth import FlaskTDAuth
 from configparser import ConfigParser
 
 # Define the templates folder.

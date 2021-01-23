@@ -17,25 +17,25 @@ from datetime import timedelta
 from utils import StatePath
 from utils import TDUtilities
 
-from td.orders import Order
-from td.orders import OrderLeg
-from td.stream import TDStreamerClient
-from td.option_chain import OptionChain
+from orders import Order
+from orders import OrderLeg
+from stream import TDStreamerClient
+from option_chain import OptionChain
 
-from td.enums import VALID_CHART_VALUES
-from td.enums import ENDPOINT_ARGUMENTS
+from enums import VALID_CHART_VALUES
+from enums import ENDPOINT_ARGUMENTS
 
-from td.oauth import run
-from td.oauth import shutdown
-from td.app.auth import FlaskTDAuth
+from oauth import run
+from oauth import shutdown
+from app.auth import FlaskTDAuth
 
-from td.exceptions import TknExpError
-from td.exceptions import ExdLmtError
-from td.exceptions import NotNulError
-from td.exceptions import ForbidError
-from td.exceptions import NotFndError
-from td.exceptions import ServerError
-from td.exceptions import GeneralError
+from exceptions import TknExpError
+from exceptions import ExdLmtError
+from exceptions import NotNulError
+from exceptions import ForbidError
+from exceptions import NotFndError
+from exceptions import ServerError
+from exceptions import GeneralError
 
 class TDClient():
 
