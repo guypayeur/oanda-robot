@@ -11,12 +11,12 @@ from typing import List
 from typing import Dict
 from typing import Union
 
-from pyrobot.trades import Trade
-from pyrobot.portfolio import Portfolio
-from pyrobot.stock_frame import StockFrame
+from trades import Trade
+from portfolio import Portfolio
+from stock_frame import StockFrame
 
-from td.client import TDClient
-from td.utils import TDUtilities
+from client import TDClient
+from utils import TDUtilities
 
 # We are going to be doing some timestamp conversions.
 milliseconds_since_epoch = TDUtilities().milliseconds_since_epoch

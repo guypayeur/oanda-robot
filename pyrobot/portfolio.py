@@ -7,7 +7,7 @@ from typing import Optional
 
 
 from pyrobot.stock_frame import StockFrame
-from td.client import TDClient
+from client import TDClient
 
 
 class Portfolio():
