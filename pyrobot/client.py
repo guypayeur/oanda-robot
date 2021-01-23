@@ -14,8 +14,8 @@ from typing import Union
 from typing import Optional
 from datetime import timedelta
 
-from td.utils import StatePath
-from td.utils import TDUtilities
+from utils import StatePath
+from utils import TDUtilities
 
 from td.orders import Order
 from td.orders import OrderLeg
