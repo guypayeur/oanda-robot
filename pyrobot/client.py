@@ -27,7 +27,7 @@ from enums import ENDPOINT_ARGUMENTS
 
 from oauth import run
 from oauth import shutdown
-from app.auth import FlaskTDAuth
+from auth import FlaskTDAuth
 
 from exceptions import TknExpError
 from exceptions import ExdLmtError
