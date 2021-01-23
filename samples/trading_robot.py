@@ -1,20 +1,23 @@
 
+import sys
 import time as time_lib
 import pprint
 import pathlib
 import operator
 import pandas as pd
 
+sys.path.append("./pyrobot")
+
 from datetime import datetime
 from datetime import timedelta
 from configparser import ConfigParser
 
-from pyrobot.robot import PyRobot
-from pyrobot.indicators import Indicators
+from robot import PyRobot
+from indicators import Indicators
 
 # Grab configuration values.
 config = ConfigParser()
-config.read('configs/config.ini')
+config.read('config/config.ini')
 
 CLIENT_ID = config.get('main', 'CLIENT_ID')
 REDIRECT_URI = config.get('main', 'REDIRECT_URI')
