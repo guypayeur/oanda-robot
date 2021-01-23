@@ -1,11 +1,13 @@
-# Python Trading Robot
+# oanda-robot -> Python Trading Robot
+
+forked from <https://github.com/areed1192/python-trading-robot>
 
 ## Table of Contents
 
 - [Overview](#overview)
 - [Setup](#setup)
 - [Usage](#usage)
-- [Support These Projects](#support-these-projects)
+
 
 ## Overview
 
@@ -78,14 +80,14 @@ pip install --upgrade python-trading-robot
 
 ## Usage
 
-To run the robot, you will need to provide a few pieces of information from your TD Ameritrade Developer account.
+To run the robot, you will need to provide a few pieces of information from your ~~TD Ameritrade~~ oanda Developer account.
 The following items are need for authentication:
 
-- Client ID: Also, called your consumer key, this was provided when you registered an app with the TD Ameritrade
+- Client ID: Also, called your consumer key, this was provided when you registered an app with the ~~TD Ameritrade~~ oanda
   Developer platform. An example of a client ID could look like the following `MMMMYYYYYA6444VXXXXBBJC3DOOOO`.
 
 - Redirect URI: Also called the callbakc URL or redirect URL, this was specified by you when you regiestered your app with
-  the TD Ameritrade Developer platform. Here is an example of a redirect URI <https://localhost/mycallback>
+  the ~~TD Ameritrade~~ oanda Developer platform. Here is an example of a redirect URI <https://localhost/mycallback>
 
 - Credentials Path: This is a file path that will point to a JSON file where your state info will be saved. Keep in mind
   that it is okay if it points to a non-existing file as once you run the script the file will be auto generated. For example,
@@ -105,17 +107,4 @@ trading_robot = PyRobot(
 )
 ```
 
-For more detailed examples, go to the `trading_robot.py` file to see an example of how to use the library along with all
-the different objects inside.
-
-## Support these Projects
-
-**Patreon:**
-Help support this project and future projects by donating to my [Patreon Page](https://www.patreon.com/sigmacoding). I'm always
-looking to add more content for individuals like yourself, unfortuantely some of the APIs I would require me to pay monthly fees.
-
-**YouTube:**
-If you'd like to watch more of my content, feel free to visit my YouTube channel [Sigma Coding](https://www.youtube.com/c/SigmaCoding).
-
-<!-- **Hire Me:**
-If you have a project, you think I can help you with feel free to reach out at [coding.sigma@gmail.com](mailto:coding.sigma@gmail.com?subject=[GitHub]%20Project%20Proposal) or fill out the [contract request form](https://forms.office.com/Pages/ResponsePage.aspx?id=ZwOBErInsUGliXx0Yo2VfcCSWZSwW25Es3vPV2veU0pUMUs5MUc2STkzSzVQMFNDVlI5NjJVNjREUi4u) -->
+THIS IS A WORK IN PROGRESS
